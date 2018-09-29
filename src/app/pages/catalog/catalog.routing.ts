@@ -1,5 +1,5 @@
 import { Routes, RouterModule } from '@angular/router';
-import { CatalogComponent } from './catalog.component';
+import {CatalogComponent} from './catalog.component';
 
 const childRoutes: Routes = [
   {
