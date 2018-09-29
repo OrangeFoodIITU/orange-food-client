@@ -4,6 +4,33 @@ export let MENU_ITEM = [
         title: 'Dashboard',
         icon: 'dashboard'
     },
+  {
+    path: 'index',
+    title: 'Reservation',
+    icon: 'calendar'
+  },
+  {
+    path: 'index',
+    title: 'Admin',
+    icon: 'cogs',
+    children: [
+      {
+        path: "index",
+        title: "Catalog",
+        icon: "database"
+      },
+      {
+        path: "user",
+        title: "Users",
+        icon: "address-card"
+      },
+      {
+        path: "index",
+        title: "Restaurants",
+        icon: "home"
+      },
+    ]
+  },
     {
         path: 'editor',
         title: 'Pell Editor',
