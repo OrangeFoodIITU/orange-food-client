@@ -1,0 +1,52 @@
+<div class="row">
+  <div class="col-md-6">
+    <card cardTitle="Del Papa" >
+      <tabset id="tabs3" theme="justified">
+        <!--<img src="http://f10.baidu.com/it/u=870634439,1838112237&amp;fm=72">-->
+        <tab-content for="tabs3" tabTitle="Информация" [active]="true">
+          <p> мкр-н. Орбита-3, дом 3</p>
+          <p>итальянская</p>
+          <p>Средний чек 5 000 тг.</p>
+          <p>График работы: 11:00-01:00</p>
+          <p>Общий зал</p>
+        </tab-content>
+        <tab-content for="tabs3" tabTitle="Меню">
+          <img src="http://f10.baidu.com/it/u=870634439,1838112237&amp;fm=72">
+        </tab-content>
+        <tab-content for="tabs3" tabTitle="Бронировать">
+          <p>Количество столов: 20</p>
+          <p>Количество свободных столов: 15</p>
+          <p>Выбрать стол:</p>
+          <div class="form-group">
+              <input class="radio" type="radio" id="default-radio1" name="radio" checked>
+              <label class="radio-label" for="default-radio1">VIP зал</label>
+              <input class="radio" type="radio" id="default-radio2" name="radio">
+              <label class="radio-label" for="default-radio2">в центре</label>
+              <input class="radio" type="radio" id="default-radio3" name="radio">
+              <label class="radio-label" for="default-radio3">ближе к окну</label>
+              <input class="radio" type="radio" id="default-radio4" name="radio">
+              <label class="radio-label" for="default-radio4">ближе ко входу</label>
+              <input class="radio" type="radio" id="default-radio5" name="radio">
+              <label class="radio-label" for="default-radio5">не важно</label>
+          </div>
+          <p>Выбрать время:</p>
+          <select name="select" id="select1" class="form-control">
+            <option value="option1">19:30</option>
+            <option value="option2">20:00</option>
+            <option value="option3">20:30</option>
+            <option value="option4">21:00</option>
+          </select>
+          <p>Примерное время провождения:</p>
+          <select name="select" id="select1" class="form-control">
+            <option value="option1">1 час</option>
+            <option value="option2">2 часа</option>
+            <option value="option3">3 часа</option>
+            <option value="option4">30 минут</option>
+          </select>
+          <br>
+            <button class="btn btn-primary">Забронировать</button>
+        </tab-content>
+      </tabset>
+    </card>
+  </div>
+</div>
